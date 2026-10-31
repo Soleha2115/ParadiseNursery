@@ -166,6 +166,12 @@ function ProductList({ onHomeClick }) {
           <button className="nav-link-btn home-nav-btn" onClick={onHomeClick}>
             Home
           </button>
+          <button
+            className={`nav-link-btn ${showCart ? 'active' : ''}`}
+            onClick={() => setShowCart(true)}
+          >
+            Cart
+          </button>
 
           <div
             className="cart-icon-wrapper"

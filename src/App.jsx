@@ -20,7 +20,7 @@ function App() {
         <div className="landing-page">
           <div className="landing-content">
             <header className="landing-header">
-              <h1 className="brand-title">Paradise Nursery</h1>
+              <h1 className="brand-title">Welcome to Paradise Nursery</h1>
               <p className="brand-tagline">Where Greenery Meets Serenity</p>
               <div className="divider"></div>
             </header>
